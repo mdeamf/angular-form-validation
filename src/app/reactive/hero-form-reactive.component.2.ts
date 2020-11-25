@@ -38,5 +38,5 @@ export class HeroFormReactiveComponent implements OnInit {
 
   get alterEgo() { return this.heroForm.get('alterEgo'); }
 
-  constructor(private alterEgoValidator: UniqueAlterEgoValidator) {}
+  constructor(private alterEgoValidator: UniqueAlterEgoValidator) { }
 }

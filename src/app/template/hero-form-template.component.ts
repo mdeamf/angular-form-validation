@@ -10,6 +10,6 @@ export class HeroFormTemplateComponent {
 
   powers = ['Really Smart', 'Super Flexible', 'Weather Changer'];
 
-  hero = {name: 'Dr.', alterEgo: 'Dr. What', power: this.powers[0]};
+  hero = { name: 'Dr.', alterEgo: 'Dr. What', power: this.powers[0] };
 
 }

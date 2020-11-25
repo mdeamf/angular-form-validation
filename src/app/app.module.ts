@@ -23,6 +23,6 @@ import { UniqueAlterEgoValidatorDirective } from './shared/alter-ego.directive';
     IdentityRevealedValidatorDirective,
     UniqueAlterEgoValidatorDirective
   ],
-  bootstrap:    [ AppComponent ]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
